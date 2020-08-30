@@ -1,0 +1,7 @@
+.board {
+    width: 100%;
+    display: grid;
+    gap: 504px 360px;
+    grid-template-columns: repeat(auto-fit, 1px);
+    transform: scale(.5)
+}

@@ -1,0 +1,20 @@
+.card {
+    position: absolute;
+    width: 360px;
+    height: 504px;
+    cursor: pointer;
+    will-change: transform, opacity;
+  }
+  
+  .back {
+    background-image: url('/cards.png');
+    background-position: 360px 0px;
+  }
+  
+  .front {
+    background-image: url('/cards.png');
+  }
+  
+.container {
+    transform: scale(0.5)
+}
